@@ -1,0 +1,18 @@
+{
+    "name": "eigen-pkg",
+    "version": "1.0.0",
+    "license": "MIT",
+    "objects": [
+        "pkg"
+    ],
+    "depends": [],
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "post_install": "pkg:setup",
+    "cored_refs": [],
+    "test": "eigen-pkg-tests"
+}

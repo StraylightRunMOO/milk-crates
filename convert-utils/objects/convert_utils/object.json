@@ -1,0 +1,12 @@
+{
+    "id": "convert_utils",
+    "name": "Conversion Utils",
+    "cored": "convert_utils",
+    "parents": [
+        "$generic_utils"
+    ],
+    "flags": [
+        "readable",
+        "fertile"
+    ]
+}

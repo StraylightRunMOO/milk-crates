@@ -1,0 +1,20 @@
+{
+    "name": "wiz-utils-tests",
+    "version": "1.0.0",
+    "license": "",
+    "objects": [
+        "wiz_tests"
+    ],
+    "depends": [
+        "wiz-utils",
+        "test-utils"
+    ],
+    "run": "wiz_tests:run",
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "cored_refs": []
+}

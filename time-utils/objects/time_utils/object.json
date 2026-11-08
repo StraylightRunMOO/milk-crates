@@ -1,0 +1,12 @@
+{
+    "id": "time_utils",
+    "name": "Time Utilities",
+    "cored": "time_utils",
+    "parents": [
+        "$generic_utils"
+    ],
+    "flags": [
+        "readable",
+        "fertile"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "perm_utils",
+    "version": "1.0.0",
+    "license": "",
+    "objects": [
+        "perm_utils"
+    ],
+    "depends": [
+        "generic-utils"
+    ],
+    "test": "perm-utils-tests",
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "cored_refs": []
+}

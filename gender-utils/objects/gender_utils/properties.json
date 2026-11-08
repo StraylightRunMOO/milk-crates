@@ -1,0 +1,230 @@
+{
+    "is_plural": {
+        "perms": "rc",
+        "value": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+        ]
+    },
+    "have": {
+        "perms": "rc",
+        "value": [
+            "has",
+            "has",
+            "has",
+            "has",
+            "has",
+            "has",
+            "have",
+            "have",
+            "have",
+            "have",
+            "have"
+        ]
+    },
+    "be": {
+        "perms": "rc",
+        "value": [
+            "is",
+            "is",
+            "is",
+            "is",
+            "is",
+            "is",
+            "are",
+            "am",
+            "are",
+            "are",
+            "are"
+        ]
+    },
+    "pronouns": {
+        "perms": "rc",
+        "value": [
+            "ps",
+            "po",
+            "pp",
+            "pq",
+            "pr",
+            "psc",
+            "poc",
+            "ppc",
+            "pqc",
+            "prc"
+        ]
+    },
+    "genders": {
+        "perms": "rc",
+        "value": [
+            "neuter",
+            "male",
+            "female",
+            "either",
+            "Spivak",
+            "splat",
+            "plural",
+            "egotistical",
+            "royal",
+            "2nd"
+        ]
+    },
+    "ps": {
+        "perms": "rc",
+        "value": [
+            "it",
+            "he",
+            "she",
+            "s/he",
+            "e",
+            "*e",
+            "they",
+            "I",
+            "we",
+            "you"
+        ]
+    },
+    "po": {
+        "perms": "rc",
+        "value": [
+            "it",
+            "him",
+            "her",
+            "him/her",
+            "em",
+            "h*",
+            "them",
+            "me",
+            "us",
+            "you"
+        ]
+    },
+    "pp": {
+        "perms": "rc",
+        "value": [
+            "its",
+            "his",
+            "her",
+            "his/her",
+            "eir",
+            "h*",
+            "their",
+            "my",
+            "our",
+            "your"
+        ]
+    },
+    "pq": {
+        "perms": "rc",
+        "value": [
+            "its",
+            "his",
+            "hers",
+            "his/hers",
+            "eirs",
+            "h*s",
+            "theirs",
+            "mine",
+            "ours",
+            "yours"
+        ]
+    },
+    "pr": {
+        "perms": "rc",
+        "value": [
+            "itself",
+            "himself",
+            "herself",
+            "(him/her)self",
+            "emself",
+            "h*self",
+            "themselves",
+            "myself",
+            "ourselves",
+            "yourself"
+        ]
+    },
+    "psc": {
+        "perms": "rc",
+        "value": [
+            "It",
+            "He",
+            "She",
+            "S/He",
+            "E",
+            "*E",
+            "They",
+            "I",
+            "We",
+            "You"
+        ]
+    },
+    "poc": {
+        "perms": "rc",
+        "value": [
+            "It",
+            "Him",
+            "Her",
+            "Him/Her",
+            "Em",
+            "H*",
+            "Them",
+            "Me",
+            "Us",
+            "You"
+        ]
+    },
+    "ppc": {
+        "perms": "rc",
+        "value": [
+            "Its",
+            "His",
+            "Her",
+            "His/Her",
+            "Eir",
+            "H*",
+            "Their",
+            "My",
+            "Our",
+            "Your"
+        ]
+    },
+    "pqc": {
+        "perms": "rc",
+        "value": [
+            "Its",
+            "His",
+            "Hers",
+            "His/Hers",
+            "Eirs",
+            "H*s",
+            "Theirs",
+            "Mine",
+            "Ours",
+            "Yours"
+        ]
+    },
+    "prc": {
+        "perms": "rc",
+        "value": [
+            "Itself",
+            "Himself",
+            "Herself",
+            "(Him/Her)self",
+            "Emself",
+            "H*self",
+            "Themselves",
+            "Myself",
+            "Ourselves",
+            "Yourself"
+        ]
+    }
+}

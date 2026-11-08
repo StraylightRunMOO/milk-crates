@@ -1,0 +1,26 @@
+{
+    "name": "object_quota_utils",
+    "version": "1.0.0",
+    "license": "",
+    "objects": [
+        "object_quota_utils"
+    ],
+    "depends": [
+        "generic-utils",
+        "object-utils",
+        "perm-utils",
+        "quota-utils",
+        "wiz-utils"
+    ],
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "cored_refs": [
+        "local",
+        "recycler"
+    ],
+    "test": "object-quota-utils-tests"
+}

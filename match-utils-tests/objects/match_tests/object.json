@@ -1,0 +1,7 @@
+{
+  "id": "match_tests",
+  "name": "Match Utils Tests",
+  "cored": "match_tests",
+  "parents": ["$root_class"],
+  "flags": ["readable"]
+}

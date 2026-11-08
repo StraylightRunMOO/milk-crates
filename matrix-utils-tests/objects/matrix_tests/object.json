@@ -1,0 +1,7 @@
+{
+  "id": "matrix_tests",
+  "name": "Matrix Utils Tests",
+  "cored": "matrix_tests",
+  "parents": ["$root_class"],
+  "flags": ["readable"]
+}

@@ -1,0 +1,1589 @@
+{
+    "basic_units": {
+        "perms": "r",
+        "value": [
+            "m",
+            "kg",
+            "s",
+            "coul",
+            "candela",
+            "radian",
+            "bit",
+            "erlang",
+            "kelvin"
+        ]
+    },
+    "pi": {
+        "perms": "r",
+        "value": "3.14159265358979323846264338327950288"
+    },
+    "c": {
+        "perms": "r",
+        "value": "2.99792458e8 m/sec"
+    },
+    "g": {
+        "perms": "r",
+        "value": "9.80665 m/sec2"
+    },
+    "au": {
+        "perms": "r",
+        "value": "1.49599e11 m"
+    },
+    "mole": {
+        "perms": "r",
+        "value": "6.022045e23"
+    },
+    "e": {
+        "perms": "r",
+        "value": "1.6020e-19 coul"
+    },
+    "abcoulomb": {
+        "perms": "r",
+        "value": "10 coul"
+    },
+    "force": {
+        "perms": "r",
+        "value": "g"
+    },
+    "slug": {
+        "perms": "r",
+        "value": "lb g sec2/ft"
+    },
+    "mercury": {
+        "perms": "r",
+        "value": "1.3157895 atm/m"
+    },
+    "hg": {
+        "perms": "r",
+        "value": "mercury"
+    },
+    "torr": {
+        "perms": "r",
+        "value": "mm hg"
+    },
+    "%": {
+        "perms": "r",
+        "value": "1|100"
+    },
+    "percent": {
+        "perms": "r",
+        "value": "%"
+    },
+    "cg": {
+        "perms": "r",
+        "value": "centigram"
+    },
+    "atmosphere": {
+        "perms": "r",
+        "value": "1.01325 bar"
+    },
+    "atm": {
+        "perms": "r",
+        "value": "atmosphere"
+    },
+    "psi": {
+        "perms": "r",
+        "value": "lb g/in2"
+    },
+    "bar": {
+        "perms": "r",
+        "value": "1e6 dyne/cm2"
+    },
+    "chemamu": {
+        "perms": "r",
+        "value": "1.66024e-24 g"
+    },
+    "physamu": {
+        "perms": "r",
+        "value": "1.65979e-24 g"
+    },
+    "amu": {
+        "perms": "r",
+        "value": "chemamu"
+    },
+    "chemdalton": {
+        "perms": "r",
+        "value": "chemamu"
+    },
+    "dalton": {
+        "perms": "r",
+        "value": "chemamu"
+    },
+    "physdalton": {
+        "perms": "r",
+        "value": "physamu"
+    },
+    "dozen": {
+        "perms": "r",
+        "value": "12"
+    },
+    "bakersdozen": {
+        "perms": "r",
+        "value": "13"
+    },
+    "quire": {
+        "perms": "r",
+        "value": "25"
+    },
+    "ream": {
+        "perms": "r",
+        "value": "500"
+    },
+    "gross": {
+        "perms": "r",
+        "value": "144"
+    },
+    "hertz": {
+        "perms": "r",
+        "value": "1/sec"
+    },
+    "cps": {
+        "perms": "r",
+        "value": "hertz"
+    },
+    "hz": {
+        "perms": "r",
+        "value": "hertz"
+    },
+    "khz": {
+        "perms": "r",
+        "value": "kilohz"
+    },
+    "mhz": {
+        "perms": "r",
+        "value": "megahz"
+    },
+    "rutherford": {
+        "perms": "r",
+        "value": "1e6/sec"
+    },
+    "degree": {
+        "perms": "r",
+        "value": "1|180 pi radian"
+    },
+    "circle": {
+        "perms": "r",
+        "value": "2 pi radian"
+    },
+    "turn": {
+        "perms": "r",
+        "value": "2 pi radian"
+    },
+    "revolution": {
+        "perms": "r",
+        "value": "360 degrees"
+    },
+    "rpm": {
+        "perms": "r",
+        "value": "revolution/minute"
+    },
+    "grade": {
+        "perms": "r",
+        "value": "1|400 circle"
+    },
+    "grad": {
+        "perms": "r",
+        "value": "1|400 circle"
+    },
+    "sign": {
+        "perms": "r",
+        "value": "1|12 circle"
+    },
+    "arcdeg": {
+        "perms": "r",
+        "value": "1 degree"
+    },
+    "arcmin": {
+        "perms": "r",
+        "value": "1|60 arcdeg"
+    },
+    "arcsec": {
+        "perms": "r",
+        "value": "1|60 arcmin"
+    },
+    "karat": {
+        "perms": "r",
+        "value": "1|24"
+    },
+    "proof": {
+        "perms": "r",
+        "value": "1|200"
+    },
+    "mpg": {
+        "perms": "r",
+        "value": "mile/gal"
+    },
+    "curie": {
+        "perms": "r",
+        "value": "3.7e10/sec"
+    },
+    "stoke": {
+        "perms": "r",
+        "value": "1 cm2/sec"
+    },
+    "steradian": {
+        "perms": "r",
+        "value": "radian radian"
+    },
+    "sr": {
+        "perms": "r",
+        "value": "steradian"
+    },
+    "sphere": {
+        "perms": "r",
+        "value": "4 pi steradian"
+    },
+    "ps": {
+        "perms": "r",
+        "value": "picosec"
+    },
+    "us": {
+        "perms": "r",
+        "value": "microsec"
+    },
+    "ns": {
+        "perms": "r",
+        "value": "nanosec"
+    },
+    "ms": {
+        "perms": "r",
+        "value": "millisec"
+    },
+    "sec": {
+        "perms": "r",
+        "value": "second"
+    },
+    "minute": {
+        "perms": "r",
+        "value": "60 sec"
+    },
+    "min": {
+        "perms": "r",
+        "value": "minute"
+    },
+    "hour": {
+        "perms": "r",
+        "value": "60 min"
+    },
+    "hr": {
+        "perms": "r",
+        "value": "hour"
+    },
+    "day": {
+        "perms": "r",
+        "value": "24 hr"
+    },
+    "week": {
+        "perms": "r",
+        "value": "7 day"
+    },
+    "quadrant": {
+        "perms": "r",
+        "value": "5400 minute"
+    },
+    "fortnight": {
+        "perms": "r",
+        "value": "14 day"
+    },
+    "year": {
+        "perms": "r",
+        "value": "365.24219879 day"
+    },
+    "yr": {
+        "perms": "r",
+        "value": "year"
+    },
+    "month": {
+        "perms": "r",
+        "value": "1|12 year"
+    },
+    "mo": {
+        "perms": "r",
+        "value": "month"
+    },
+    "decade": {
+        "perms": "r",
+        "value": "10 year"
+    },
+    "century": {
+        "perms": "r",
+        "value": "100 year"
+    },
+    "millenium": {
+        "perms": "r",
+        "value": "1000 year"
+    },
+    "gm": {
+        "perms": "r",
+        "value": "gram"
+    },
+    "myriagram": {
+        "perms": "r",
+        "value": "10 kg"
+    },
+    "mg": {
+        "perms": "r",
+        "value": "milligram"
+    },
+    "metricton": {
+        "perms": "r",
+        "value": "1000 kg"
+    },
+    "gamma": {
+        "perms": "r",
+        "value": "1e-6 g"
+    },
+    "metriccarat": {
+        "perms": "r",
+        "value": "200 mg"
+    },
+    "quintal": {
+        "perms": "r",
+        "value": "100 kg"
+    },
+    "lb": {
+        "perms": "r",
+        "value": "0.45359237 kg"
+    },
+    "pound": {
+        "perms": "r",
+        "value": "lb"
+    },
+    "lbf": {
+        "perms": "r",
+        "value": "lb g"
+    },
+    "cental": {
+        "perms": "r",
+        "value": "100 lb"
+    },
+    "stone": {
+        "perms": "r",
+        "value": "14 lb"
+    },
+    "ounce": {
+        "perms": "r",
+        "value": "1|16 lb"
+    },
+    "oz": {
+        "perms": "r",
+        "value": "ounce"
+    },
+    "avdram": {
+        "perms": "r",
+        "value": "1|16 oz"
+    },
+    "usdram": {
+        "perms": "r",
+        "value": "1|8 oz"
+    },
+    "dram": {
+        "perms": "r",
+        "value": "avdram"
+    },
+    "dr": {
+        "perms": "r",
+        "value": "dram"
+    },
+    "grain": {
+        "perms": "r",
+        "value": "1|7000 lb"
+    },
+    "gr": {
+        "perms": "r",
+        "value": "grain"
+    },
+    "shortton": {
+        "perms": "r",
+        "value": "2000 lb"
+    },
+    "ton": {
+        "perms": "r",
+        "value": "shortton"
+    },
+    "longquarter": {
+        "perms": "r",
+        "value": "28 lb"
+    },
+    "shortquarter": {
+        "perms": "r",
+        "value": "500 lb"
+    },
+    "longton": {
+        "perms": "r",
+        "value": "2240 lb"
+    },
+    "longhundredweight": {
+        "perms": "r",
+        "value": "112 lb"
+    },
+    "shorthundredweight": {
+        "perms": "r",
+        "value": "100 lb"
+    },
+    "wey": {
+        "perms": "r",
+        "value": "252 lb"
+    },
+    "carat": {
+        "perms": "r",
+        "value": "205.3 mg"
+    },
+    "scruple": {
+        "perms": "r",
+        "value": "20 grain"
+    },
+    "pennyweight": {
+        "perms": "r",
+        "value": "24 grain"
+    },
+    "apdram": {
+        "perms": "r",
+        "value": "60 grain"
+    },
+    "apounce": {
+        "perms": "r",
+        "value": "480 grain"
+    },
+    "appound": {
+        "perms": "r",
+        "value": "5760 grain"
+    },
+    "cm": {
+        "perms": "r",
+        "value": "centimeter"
+    },
+    "mm": {
+        "perms": "r",
+        "value": "millimeter"
+    },
+    "km": {
+        "perms": "r",
+        "value": "kilometer"
+    },
+    "parsec": {
+        "perms": "r",
+        "value": "au radian/arcsec"
+    },
+    "pc": {
+        "perms": "r",
+        "value": "parsec"
+    },
+    "nm": {
+        "perms": "r",
+        "value": "nanometer"
+    },
+    "micron": {
+        "perms": "r",
+        "value": "1e-6 meter"
+    },
+    "angstrom": {
+        "perms": "r",
+        "value": "1e-8 meter"
+    },
+    "fermi": {
+        "perms": "r",
+        "value": "1e-13 cm"
+    },
+    "point": {
+        "perms": "r",
+        "value": "1|72.27 in"
+    },
+    "pica": {
+        "perms": "r",
+        "value": "0.166044 inch"
+    },
+    "caliber": {
+        "perms": "r",
+        "value": "0.01 in"
+    },
+    "barleycorn": {
+        "perms": "r",
+        "value": "1|3 in"
+    },
+    "inch": {
+        "perms": "r",
+        "value": "2.54 cm"
+    },
+    "in": {
+        "perms": "r",
+        "value": "inch"
+    },
+    "mil": {
+        "perms": "r",
+        "value": "0.001 in"
+    },
+    "palm": {
+        "perms": "r",
+        "value": "3 in"
+    },
+    "hand": {
+        "perms": "r",
+        "value": "4 in"
+    },
+    "span": {
+        "perms": "r",
+        "value": "9 in"
+    },
+    "foot": {
+        "perms": "r",
+        "value": "12 in"
+    },
+    "feet": {
+        "perms": "r",
+        "value": "foot"
+    },
+    "ft": {
+        "perms": "r",
+        "value": "foot"
+    },
+    "cubit": {
+        "perms": "r",
+        "value": "18 in"
+    },
+    "pace": {
+        "perms": "r",
+        "value": "30 inch"
+    },
+    "yard": {
+        "perms": "r",
+        "value": "3 ft"
+    },
+    "yd": {
+        "perms": "r",
+        "value": "yard"
+    },
+    "fathom": {
+        "perms": "r",
+        "value": "6 ft"
+    },
+    "rod": {
+        "perms": "r",
+        "value": "16.5 ft"
+    },
+    "rd": {
+        "perms": "r",
+        "value": "rod"
+    },
+    "rope": {
+        "perms": "r",
+        "value": "20 ft"
+    },
+    "ell": {
+        "perms": "r",
+        "value": "45 in"
+    },
+    "skein": {
+        "perms": "r",
+        "value": "360 feet"
+    },
+    "cable": {
+        "perms": "r",
+        "value": "720 ft"
+    },
+    "furlong": {
+        "perms": "r",
+        "value": "660 ft"
+    },
+    "nmile": {
+        "perms": "r",
+        "value": "1852 m"
+    },
+    "nautmile": {
+        "perms": "r",
+        "value": "nmile"
+    },
+    "bolt": {
+        "perms": "r",
+        "value": "120 feet"
+    },
+    "mile": {
+        "perms": "r",
+        "value": "5280 feet"
+    },
+    "mi": {
+        "perms": "r",
+        "value": "mile"
+    },
+    "league": {
+        "perms": "r",
+        "value": "3 mi"
+    },
+    "nautleague": {
+        "perms": "r",
+        "value": "3 nmile"
+    },
+    "lightyear": {
+        "perms": "r",
+        "value": "c yr"
+    },
+    "engineerschain": {
+        "perms": "r",
+        "value": "100 ft"
+    },
+    "engineerslink": {
+        "perms": "r",
+        "value": "0.01 engineerschain"
+    },
+    "gunterchain": {
+        "perms": "r",
+        "value": "66 ft"
+    },
+    "gunterlink": {
+        "perms": "r",
+        "value": "0.01 gunterchain"
+    },
+    "ramdenchain": {
+        "perms": "r",
+        "value": "100 ft"
+    },
+    "ramdenlink": {
+        "perms": "r",
+        "value": "0.01 ramdenchain"
+    },
+    "acre": {
+        "perms": "r",
+        "value": "43560 ft2"
+    },
+    "rood": {
+        "perms": "r",
+        "value": "0.25 acre"
+    },
+    "are": {
+        "perms": "r",
+        "value": "100 m2"
+    },
+    "centare": {
+        "perms": "r",
+        "value": "0.01 are"
+    },
+    "hectare": {
+        "perms": "r",
+        "value": "100 are"
+    },
+    "barn": {
+        "perms": "r",
+        "value": "1e-24 cm2"
+    },
+    "section": {
+        "perms": "r",
+        "value": "mi2"
+    },
+    "township": {
+        "perms": "r",
+        "value": "36 mi2"
+    },
+    "cc": {
+        "perms": "r",
+        "value": "cm3"
+    },
+    "liter": {
+        "perms": "r",
+        "value": "1000 cc"
+    },
+    "l": {
+        "perms": "r",
+        "value": "liter"
+    },
+    "ml": {
+        "perms": "r",
+        "value": "milliliter"
+    },
+    "registerton": {
+        "perms": "r",
+        "value": "100 ft3"
+    },
+    "cord": {
+        "perms": "r",
+        "value": "128 ft3"
+    },
+    "boardfoot": {
+        "perms": "r",
+        "value": "144 in3"
+    },
+    "boardfeet": {
+        "perms": "r",
+        "value": "boardfoot"
+    },
+    "cordfoot": {
+        "perms": "r",
+        "value": "0.125 cord"
+    },
+    "cordfeet": {
+        "perms": "r",
+        "value": "cordfoot"
+    },
+    "last": {
+        "perms": "r",
+        "value": "80 bu"
+    },
+    "perch": {
+        "perms": "r",
+        "value": "24.75 ft3"
+    },
+    "stere": {
+        "perms": "r",
+        "value": "m3"
+    },
+    "cfs": {
+        "perms": "r",
+        "value": "ft3/sec"
+    },
+    "gallon": {
+        "perms": "r",
+        "value": "231 in3"
+    },
+    "imperial": {
+        "perms": "r",
+        "value": "1.200949"
+    },
+    "gal": {
+        "perms": "r",
+        "value": "gallon"
+    },
+    "quart": {
+        "perms": "r",
+        "value": "1|4 gal"
+    },
+    "qt": {
+        "perms": "r",
+        "value": "quart"
+    },
+    "magnum": {
+        "perms": "r",
+        "value": "2 qt"
+    },
+    "pint": {
+        "perms": "r",
+        "value": "1|2 qt"
+    },
+    "pt": {
+        "perms": "r",
+        "value": "pint"
+    },
+    "cup": {
+        "perms": "r",
+        "value": "1|2 pt"
+    },
+    "gill": {
+        "perms": "r",
+        "value": "1|4 pt"
+    },
+    "fifth": {
+        "perms": "r",
+        "value": "1|5 gal"
+    },
+    "firkin": {
+        "perms": "r",
+        "value": "72 pint"
+    },
+    "barrel": {
+        "perms": "r",
+        "value": "31.5 gal"
+    },
+    "petrbarrel": {
+        "perms": "r",
+        "value": "42 gal"
+    },
+    "hogshead": {
+        "perms": "r",
+        "value": "63 gal"
+    },
+    "hd": {
+        "perms": "r",
+        "value": "hogshead"
+    },
+    "tun": {
+        "perms": "r",
+        "value": "252 gal"
+    },
+    "kilderkin": {
+        "perms": "r",
+        "value": "18 imperial gal"
+    },
+    "noggin": {
+        "perms": "r",
+        "value": "1 imperial gill"
+    },
+    "floz": {
+        "perms": "r",
+        "value": "1|4 gill"
+    },
+    "fldr": {
+        "perms": "r",
+        "value": "1|32 gill"
+    },
+    "tablespoon": {
+        "perms": "r",
+        "value": "4 fldr"
+    },
+    "teaspoon": {
+        "perms": "r",
+        "value": "1|3 tablespoon"
+    },
+    "minim": {
+        "perms": "r",
+        "value": "1|480 floz"
+    },
+    "pk": {
+        "perms": "r",
+        "value": "peck"
+    },
+    "bushel": {
+        "perms": "r",
+        "value": "8 dry gal"
+    },
+    "dry": {
+        "perms": "r",
+        "value": "268.8025 in3/gallon"
+    },
+    "bu": {
+        "perms": "r",
+        "value": "bushel"
+    },
+    "british": {
+        "perms": "r",
+        "value": "277.4193|231"
+    },
+    "brbucket": {
+        "perms": "r",
+        "value": "4 dry british gal"
+    },
+    "brpeck": {
+        "perms": "r",
+        "value": "2 dry british gal"
+    },
+    "brbushel": {
+        "perms": "r",
+        "value": "8 dry british gal"
+    },
+    "brfirkin": {
+        "perms": "r",
+        "value": "1.125 brbushel"
+    },
+    "dryquartern": {
+        "perms": "r",
+        "value": "2.272980 l"
+    },
+    "liqquarten": {
+        "perms": "r",
+        "value": "0.1420613 l"
+    },
+    "butt": {
+        "perms": "r",
+        "value": "126 gal"
+    },
+    "bag": {
+        "perms": "r",
+        "value": "3 brbushels"
+    },
+    "brbarrel": {
+        "perms": "r",
+        "value": "4.5 brbushels"
+    },
+    "seam": {
+        "perms": "r",
+        "value": "8 brbushels"
+    },
+    "drachm": {
+        "perms": "r",
+        "value": "3.551531 ml"
+    },
+    "newton": {
+        "perms": "r",
+        "value": "kg m/sec2"
+    },
+    "pascal": {
+        "perms": "r",
+        "value": "nt/m2"
+    },
+    "nt": {
+        "perms": "r",
+        "value": "newton"
+    },
+    "joule": {
+        "perms": "r",
+        "value": "nt m"
+    },
+    "cal": {
+        "perms": "r",
+        "value": "4.1868 joule"
+    },
+    "gramcalorie": {
+        "perms": "r",
+        "value": "cal"
+    },
+    "calorie": {
+        "perms": "r",
+        "value": "cal"
+    },
+    "btu": {
+        "perms": "r",
+        "value": "1054.35 joule"
+    },
+    "frigorie": {
+        "perms": "r",
+        "value": "kilocal"
+    },
+    "kcal": {
+        "perms": "r",
+        "value": "kilocal"
+    },
+    "kcalorie": {
+        "perms": "r",
+        "value": "kilocal"
+    },
+    "langley": {
+        "perms": "r",
+        "value": "cal/cm cm"
+    },
+    "dyne": {
+        "perms": "r",
+        "value": "erg/cm"
+    },
+    "poundal": {
+        "perms": "r",
+        "value": "ft lb/sec2"
+    },
+    "pdl": {
+        "perms": "r",
+        "value": "poundal"
+    },
+    "erg": {
+        "perms": "r",
+        "value": "1e-7 joule"
+    },
+    "horsepower": {
+        "perms": "r",
+        "value": "550 ft lb g/sec"
+    },
+    "hp": {
+        "perms": "r",
+        "value": "horsepower"
+    },
+    "poise": {
+        "perms": "r",
+        "value": "gram/cm sec"
+    },
+    "reyn": {
+        "perms": "r",
+        "value": "6.89476e-6 centipoise"
+    },
+    "rhe": {
+        "perms": "r",
+        "value": "1/poise"
+    },
+    "coul": {
+        "perms": "r",
+        "value": "coulomb"
+    },
+    "statcoul": {
+        "perms": "r",
+        "value": "3.335635e-10 coul"
+    },
+    "ampere": {
+        "perms": "r",
+        "value": "coul/sec"
+    },
+    "abampere": {
+        "perms": "r",
+        "value": "10 amp"
+    },
+    "amp": {
+        "perms": "r",
+        "value": "ampere"
+    },
+    "watt": {
+        "perms": "r",
+        "value": "joule/sec"
+    },
+    "volt": {
+        "perms": "r",
+        "value": "watt/amp"
+    },
+    "v": {
+        "perms": "r",
+        "value": "volt"
+    },
+    "abvolt": {
+        "perms": "r",
+        "value": "10 volt"
+    },
+    "statvolt": {
+        "perms": "r",
+        "value": "299.7930 volt"
+    },
+    "ohm": {
+        "perms": "r",
+        "value": "volt/amp"
+    },
+    "abohm": {
+        "perms": "r",
+        "value": "10 ohm"
+    },
+    "mho": {
+        "perms": "r",
+        "value": "1/ohm"
+    },
+    "abmho": {
+        "perms": "r",
+        "value": "10 mho"
+    },
+    "siemens": {
+        "perms": "r",
+        "value": "mho"
+    },
+    "farad": {
+        "perms": "r",
+        "value": "coul/volt"
+    },
+    "abfarad": {
+        "perms": "r",
+        "value": "10 farad"
+    },
+    "statfarad": {
+        "perms": "r",
+        "value": "1.112646e-12 farad"
+    },
+    "pf": {
+        "perms": "r",
+        "value": "picofarad"
+    },
+    "abhenry": {
+        "perms": "r",
+        "value": "10 henry"
+    },
+    "henry": {
+        "perms": "r",
+        "value": "sec2/farad"
+    },
+    "stathenry": {
+        "perms": "r",
+        "value": "8.987584e11 henry"
+    },
+    "mh": {
+        "perms": "r",
+        "value": "millihenry"
+    },
+    "weber": {
+        "perms": "r",
+        "value": "volt sec"
+    },
+    "gauss": {
+        "perms": "r",
+        "value": "maxwell/cm2"
+    },
+    "electronvolt": {
+        "perms": "r",
+        "value": "e volt"
+    },
+    "ev": {
+        "perms": "r",
+        "value": "e volt"
+    },
+    "kev": {
+        "perms": "r",
+        "value": "1e3 ev"
+    },
+    "mev": {
+        "perms": "r",
+        "value": "1e6 ev"
+    },
+    "bev": {
+        "perms": "r",
+        "value": "1e9 ev"
+    },
+    "faraday": {
+        "perms": "r",
+        "value": "9.648456e4coul"
+    },
+    "gilbert": {
+        "perms": "r",
+        "value": "0.7957747154 amp"
+    },
+    "oersted": {
+        "perms": "r",
+        "value": "1 gilbert / cm"
+    },
+    "oe": {
+        "perms": "r",
+        "value": "oersted"
+    },
+    "cd": {
+        "perms": "r",
+        "value": "candela"
+    },
+    "lumen": {
+        "perms": "r",
+        "value": "cd sr"
+    },
+    "lux": {
+        "perms": "r",
+        "value": "lumen/m2"
+    },
+    "footcandle": {
+        "perms": "r",
+        "value": "lumen/ft2"
+    },
+    "footlambert": {
+        "perms": "r",
+        "value": "cd/pi ft2"
+    },
+    "lambert": {
+        "perms": "r",
+        "value": "cd/pi cm2"
+    },
+    "phot": {
+        "perms": "r",
+        "value": "lumen/cm2"
+    },
+    "stilb": {
+        "perms": "r",
+        "value": "cd/cm2"
+    },
+    "candle": {
+        "perms": "r",
+        "value": "cd"
+    },
+    "engcandle": {
+        "perms": "r",
+        "value": "1.04 cd"
+    },
+    "germancandle": {
+        "perms": "r",
+        "value": "1.05 cd"
+    },
+    "carcel": {
+        "perms": "r",
+        "value": "9.61 cd"
+    },
+    "hefnerunit": {
+        "perms": "r",
+        "value": ".92 cd"
+    },
+    "candlepower": {
+        "perms": "r",
+        "value": "12.566370 lumen"
+    },
+    "baud": {
+        "perms": "r",
+        "value": "bit/sec"
+    },
+    "byte": {
+        "perms": "r",
+        "value": "8 bit"
+    },
+    "kb": {
+        "perms": "r",
+        "value": "1024 byte"
+    },
+    "mb": {
+        "perms": "r",
+        "value": "1024 kb"
+    },
+    "gb": {
+        "perms": "r",
+        "value": "1024 mb"
+    },
+    "word": {
+        "perms": "r",
+        "value": "4 byte"
+    },
+    "long": {
+        "perms": "r",
+        "value": "4 word"
+    },
+    "block": {
+        "perms": "r",
+        "value": "512 byte"
+    },
+    "mph": {
+        "perms": "r",
+        "value": "mile/hr"
+    },
+    "knot": {
+        "perms": "r",
+        "value": "nmile/hr"
+    },
+    "brknot": {
+        "perms": "r",
+        "value": "6080 ft/hr"
+    },
+    "mach": {
+        "perms": "r",
+        "value": "331.45 m/sec"
+    },
+    "energy": {
+        "perms": "r",
+        "value": "c2"
+    },
+    "ccs": {
+        "perms": "r",
+        "value": "1|36 erlang"
+    },
+    "peck": {
+        "perms": "r",
+        "value": "2 dry gallon"
+    },
+    "arpentcan": {
+        "perms": "r",
+        "value": "27.52 mi"
+    },
+    "apostilb": {
+        "perms": "r",
+        "value": "cd/pi m2"
+    },
+    "arpentlin": {
+        "perms": "r",
+        "value": "191.835 ft"
+    },
+    "atomicmassunit": {
+        "perms": "r",
+        "value": "amu"
+    },
+    "barie": {
+        "perms": "r",
+        "value": "1e-1 nt/m2"
+    },
+    "barye": {
+        "perms": "r",
+        "value": "1e-1 nt/m2"
+    },
+    "biot": {
+        "perms": "r",
+        "value": "10 amp"
+    },
+    "blondel": {
+        "perms": "r",
+        "value": "cd/pi m2"
+    },
+    "bottommeasure": {
+        "perms": "r",
+        "value": "1|40 in"
+    },
+    "refrigeration": {
+        "perms": "r",
+        "value": "12000 but/ton hr"
+    },
+    "centesimalminute": {
+        "perms": "r",
+        "value": "1e-2 grade"
+    },
+    "centesimalsecond": {
+        "perms": "r",
+        "value": "1e-4 grade"
+    },
+    "chain": {
+        "perms": "r",
+        "value": "gunterchain"
+    },
+    "circularinch": {
+        "perms": "r",
+        "value": "1|4 pi in2"
+    },
+    "circularmil": {
+        "perms": "r",
+        "value": "1e-6|4 pi in2"
+    },
+    "clusec": {
+        "perms": "r",
+        "value": "1e-8 mm hg m3/s"
+    },
+    "coomb": {
+        "perms": "r",
+        "value": "4 bu"
+    },
+    "crith": {
+        "perms": "r",
+        "value": "9.06e-2 gram"
+    },
+    "dioptre": {
+        "perms": "r",
+        "value": "1/m"
+    },
+    "displacementton": {
+        "perms": "r",
+        "value": "35 ft3"
+    },
+    "dopplezentner": {
+        "perms": "r",
+        "value": "100 kg"
+    },
+    "equivalentfootcandle": {
+        "perms": "r",
+        "value": "lumen/pi ft2"
+    },
+    "equivalentlux": {
+        "perms": "r",
+        "value": "lumen/pi m2"
+    },
+    "equivalentphot": {
+        "perms": "r",
+        "value": "cd/pi cm2"
+    },
+    "finger": {
+        "perms": "r",
+        "value": "7|8 in"
+    },
+    "franklin": {
+        "perms": "r",
+        "value": "3.33564e-10 coul"
+    },
+    "galileo": {
+        "perms": "r",
+        "value": "1e-2 m/sec2"
+    },
+    "geographicalmile": {
+        "perms": "r",
+        "value": "nmile"
+    },
+    "hefnercandle": {
+        "perms": "r",
+        "value": "hefnerunit"
+    },
+    "homestead": {
+        "perms": "r",
+        "value": "1|4 mi2"
+    },
+    "hyl": {
+        "perms": "r",
+        "value": "gram force sec2/m"
+    },
+    "imaginarycubicfoot": {
+        "perms": "r",
+        "value": "1.4 ft3"
+    },
+    "jeroboam": {
+        "perms": "r",
+        "value": "4|5 gal"
+    },
+    "line": {
+        "perms": "r",
+        "value": "1|12 in"
+    },
+    "link": {
+        "perms": "r",
+        "value": "66|100 ft"
+    },
+    "lusec": {
+        "perms": "r",
+        "value": "1e-6 mm hg m3/s"
+    },
+    "marineleague": {
+        "perms": "r",
+        "value": "3nmile"
+    },
+    "maxwell": {
+        "perms": "r",
+        "value": "1e-8 weber"
+    },
+    "mgd": {
+        "perms": "r",
+        "value": "megagal/day"
+    },
+    "minersinch": {
+        "perms": "r",
+        "value": "1.5 ft3/min"
+    },
+    "nail": {
+        "perms": "r",
+        "value": "1|16 yd"
+    },
+    "nit": {
+        "perms": "r",
+        "value": "cd/m2"
+    },
+    "nox": {
+        "perms": "r",
+        "value": "1e-3 lux"
+    },
+    "pieze": {
+        "perms": "r",
+        "value": "1e3 nt/mt2"
+    },
+    "pipe": {
+        "perms": "r",
+        "value": "4 barrel"
+    },
+    "pole": {
+        "perms": "r",
+        "value": "rd"
+    },
+    "quarter": {
+        "perms": "r",
+        "value": "9 in"
+    },
+    "quartersection": {
+        "perms": "r",
+        "value": "1|4 mi2"
+    },
+    "ra": {
+        "perms": "r",
+        "value": "100 erg/gram"
+    },
+    "rankine": {
+        "perms": "r",
+        "value": "1.8 kelvin"
+    },
+    "rehoboam": {
+        "perms": "r",
+        "value": "156 floz"
+    },
+    "rontgen": {
+        "perms": "r",
+        "value": "2.58e-4 curie/kg"
+    },
+    "rydberg": {
+        "perms": "r",
+        "value": "1.36054e1 ev"
+    },
+    "sabin": {
+        "perms": "r",
+        "value": "1 ft2"
+    },
+    "shippington": {
+        "perms": "r",
+        "value": "40 ft3"
+    },
+    "sigma": {
+        "perms": "r",
+        "value": "microsec"
+    },
+    "skot": {
+        "perms": "r",
+        "value": "1e-3 apostilb"
+    },
+    "spat": {
+        "perms": "r",
+        "value": "sphere"
+    },
+    "spindle": {
+        "perms": "r",
+        "value": "14400 yd"
+    },
+    "square": {
+        "perms": "r",
+        "value": "100 ft2"
+    },
+    "sthene": {
+        "perms": "r",
+        "value": "1e3 nt"
+    },
+    "tesla": {
+        "perms": "r",
+        "value": "weber/m2"
+    },
+    "thermie": {
+        "perms": "r",
+        "value": "1e6 cal"
+    },
+    "timberfoot": {
+        "perms": "r",
+        "value": "ft3"
+    },
+    "tonne": {
+        "perms": "r",
+        "value": "1e6 gram"
+    },
+    "water": {
+        "perms": "r",
+        "value": "0.22491|2.54 kg/m2 sec2"
+    },
+    "xunit": {
+        "perms": "r",
+        "value": "1.00202e-13 m"
+    },
+    "k": {
+        "perms": "r",
+        "value": "1.38047e-16 erg/kelvin"
+    },
+    "puncheon": {
+        "perms": "r",
+        "value": "84 gal"
+    },
+    "tnt": {
+        "perms": "r",
+        "value": "4.6e6 m2/sec2"
+    },
+    "basic_units_template": {
+        "perms": "r",
+        "value": [
+            [
+                "m",
+                0
+            ],
+            [
+                "kg",
+                0
+            ],
+            [
+                "s",
+                0
+            ],
+            [
+                "coul",
+                0
+            ],
+            [
+                "candela",
+                0
+            ],
+            [
+                "radian",
+                0
+            ],
+            [
+                "bit",
+                0
+            ],
+            [
+                "erlang",
+                0
+            ],
+            [
+                "kelvin",
+                0
+            ]
+        ]
+    },
+    "meter": {
+        "perms": "r",
+        "value": "m"
+    },
+    "gram": {
+        "perms": "r",
+        "value": "1|1000 kg"
+    },
+    "second": {
+        "perms": "r",
+        "value": "s"
+    },
+    "inches": {
+        "perms": "r",
+        "value": "inch"
+    },
+    "sennight": {
+        "perms": "r",
+        "value": "1 week"
+    },
+    "cubichectare": {
+        "perms": "r",
+        "value": "1000000 m3"
+    },
+    "astronomicalunit": {
+        "perms": "r",
+        "value": "au"
+    },
+    "fluidounce": {
+        "perms": "r",
+        "value": "floz"
+    },
+    "tsp": {
+        "perms": "r",
+        "value": "teaspoon"
+    },
+    "tbsp": {
+        "perms": "r",
+        "value": "tablespoon"
+    }
+}

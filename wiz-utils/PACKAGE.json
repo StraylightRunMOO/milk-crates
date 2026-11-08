@@ -1,0 +1,53 @@
+{
+    "name": "wiz_utils",
+    "version": "1.0.0",
+    "license": "",
+    "objects": [
+        "wiz_utils"
+    ],
+    "depends": [
+        "generic-utils",
+        "ansi-utils",
+        "code-utils",
+        "command-utils",
+        "list-utils",
+        "object-utils",
+        "perm-utils",
+        "quota-utils",
+        "set-utils",
+        "string-utils"
+    ],
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "cored_refs": [
+        "error",
+        "failed_match",
+        "guest",
+        "hacker",
+        "housekeeper",
+        "local",
+        "login",
+        "mail_agent",
+        "mail_editor",
+        "mail_recipient",
+        "network",
+        "new_player_log",
+        "new_prog_log",
+        "newt_log",
+        "no_one",
+        "note_editor",
+        "player",
+        "player_class",
+        "player_db",
+        "player_start",
+        "registration_db",
+        "site_db",
+        "verb_editor",
+        "wiz"
+    ],
+    "test": "wiz-utils-tests"
+}

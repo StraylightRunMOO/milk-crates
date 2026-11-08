@@ -1,0 +1,12 @@
+{
+    "id": "command_utils",
+    "name": "Command Utilities",
+    "cored": "command_utils",
+    "parents": [
+        "$generic_utils"
+    ],
+    "flags": [
+        "readable",
+        "fertile"
+    ]
+}

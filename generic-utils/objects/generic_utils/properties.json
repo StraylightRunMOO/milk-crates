@@ -1,0 +1,10 @@
+{
+    "help_msg": {
+        "perms": "rc",
+        "value": [
+            "$generic_utils is the common parent of the stock *-utils crates (string, list, math, time, ...).",
+            "Children inherit :help_msg, which lists every verb on this object via $code_utils:verb_documentation.",
+            "Install this crate before the other *-utils crates; $pkg:install does that automatically."
+        ]
+    }
+}

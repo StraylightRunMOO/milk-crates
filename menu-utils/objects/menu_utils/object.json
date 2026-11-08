@@ -1,0 +1,12 @@
+{
+    "id": "menu_utils",
+    "name": "Menu Utilities",
+    "cored": "menu_utils",
+    "parents": [
+        "$generic_utils"
+    ],
+    "flags": [
+        "readable",
+        "fertile"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "match-utils-tests",
+    "version": "1.0.0",
+    "license": "",
+    "objects": [
+        "match_tests"
+    ],
+    "depends": [
+        "match-utils",
+        "test-utils"
+    ],
+    "run": "match_tests:run",
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "cored_refs": []
+}

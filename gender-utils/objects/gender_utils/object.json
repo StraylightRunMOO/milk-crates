@@ -1,0 +1,12 @@
+{
+    "id": "gender_utils",
+    "name": "Gender Utilities",
+    "cored": "gender_utils",
+    "parents": [
+        "$generic_utils"
+    ],
+    "flags": [
+        "readable",
+        "fertile"
+    ]
+}

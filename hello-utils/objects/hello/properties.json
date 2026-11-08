@@ -1,0 +1,6 @@
+{
+  "greeting": {
+    "perms": "rw",
+    "value": "hello, world"
+  }
+}

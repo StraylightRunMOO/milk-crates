@@ -1,0 +1,20 @@
+{
+    "name": "lock-utils-tests",
+    "version": "1.0.0",
+    "license": "",
+    "objects": [
+        "lock_tests"
+    ],
+    "depends": [
+        "lock-utils",
+        "test-utils"
+    ],
+    "run": "lock_tests:run",
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "cored_refs": []
+}

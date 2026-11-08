@@ -1,0 +1,20 @@
+{
+    "name": "convert_utils",
+    "version": "1.0.0",
+    "license": "",
+    "objects": [
+        "convert_utils"
+    ],
+    "depends": [
+        "generic-utils",
+        "string-utils"
+    ],
+    "test": "convert-utils-tests",
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "cored_refs": []
+}

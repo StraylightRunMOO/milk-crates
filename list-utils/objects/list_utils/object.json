@@ -1,0 +1,12 @@
+{
+    "id": "list_utils",
+    "name": "List Utilities",
+    "cored": "list_utils",
+    "parents": [
+        "$generic_utils"
+    ],
+    "flags": [
+        "readable",
+        "fertile"
+    ]
+}

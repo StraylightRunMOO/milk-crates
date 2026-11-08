@@ -1,0 +1,10 @@
+{
+    "lag_samples": {
+        "perms": "r",
+        "value": []
+    },
+    "feature_task": {
+        "perms": "",
+        "value": "hey, neat, no feature verbs have been run yet!"
+    }
+}

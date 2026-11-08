@@ -1,0 +1,17 @@
+{
+    "name": "generic_utils",
+    "version": "1.0.0",
+    "license": "",
+    "objects": [
+        "generic_utils"
+    ],
+    "depends": [],
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "cored_refs": [],
+    "test": "generic-utils-tests"
+}

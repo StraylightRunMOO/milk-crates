@@ -1,0 +1,19 @@
+{
+    "name": "test-utils-tests",
+    "version": "1.0.0",
+    "license": "MIT",
+    "objects": [
+        "test_utils_tests"
+    ],
+    "depends": [
+        "test-utils"
+    ],
+    "run": "test_utils_tests:run",
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "cored_refs": []
+}

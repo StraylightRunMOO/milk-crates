@@ -1,0 +1,11 @@
+{
+  "id": "ansi_tests",
+  "name": "ANSI Utils Tests",
+  "cored": "ansi_tests",
+  "parents": [
+    "$root_class"
+  ],
+  "flags": [
+    "readable"
+  ]
+}

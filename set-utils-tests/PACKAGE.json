@@ -1,0 +1,20 @@
+{
+    "name": "set-utils-tests",
+    "version": "1.0.0",
+    "license": "",
+    "objects": [
+        "set_tests"
+    ],
+    "depends": [
+        "set-utils",
+        "test-utils"
+    ],
+    "run": "set_tests:run",
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "cored_refs": []
+}

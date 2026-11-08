@@ -1,0 +1,22 @@
+{
+    "name": "seq_utils",
+    "version": "1.0.0",
+    "license": "",
+    "objects": [
+        "seq_utils"
+    ],
+    "depends": [
+        "generic-utils",
+        "command-utils",
+        "list-utils",
+        "string-utils"
+    ],
+    "test": "seq-utils-tests",
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "cored_refs": []
+}

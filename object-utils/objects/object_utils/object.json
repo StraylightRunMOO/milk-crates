@@ -1,0 +1,12 @@
+{
+    "id": "object_utils",
+    "name": "Object Utilities",
+    "cored": "object_utils",
+    "parents": [
+        "$generic_utils"
+    ],
+    "flags": [
+        "readable",
+        "fertile"
+    ]
+}

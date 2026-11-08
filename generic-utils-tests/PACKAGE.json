@@ -1,0 +1,21 @@
+{
+    "name": "generic-utils-tests",
+    "version": "1.0.0",
+    "license": "",
+    "objects": [
+        "generic_tests"
+    ],
+    "depends": [
+        "generic-utils",
+        "code-utils",
+        "test-utils"
+    ],
+    "run": "generic_tests:run",
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "cored_refs": []
+}

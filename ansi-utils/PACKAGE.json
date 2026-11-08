@@ -1,0 +1,39 @@
+{
+    "name": "ansi_utils",
+    "version": "1.0.0",
+    "license": "",
+    "objects": [
+        "ansi_utils"
+    ],
+    "depends": [
+        "generic-utils",
+        "code-utils",
+        "command-utils",
+        "list-utils",
+        "menu-utils",
+        "object-utils",
+        "perm-utils",
+        "set-utils",
+        "string-utils"
+    ],
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "cored_refs": [
+        "ansi_help",
+        "ansi_options",
+        "ansi_pc",
+        "emu",
+        "generic_editor",
+        "guest",
+        "hacker",
+        "login",
+        "player",
+        "player_db",
+        "recycler"
+    ],
+    "test": "ansi-utils-tests"
+}

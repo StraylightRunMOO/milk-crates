@@ -1,0 +1,20 @@
+{
+    "name": "edit-utils-tests",
+    "version": "1.0.0",
+    "license": "",
+    "objects": [
+        "edit_tests"
+    ],
+    "depends": [
+        "edit-utils",
+        "test-utils"
+    ],
+    "run": "edit_tests:run",
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "cored_refs": []
+}

@@ -1,0 +1,33 @@
+{
+    "name": "code_utils",
+    "version": "1.0.0",
+    "license": "",
+    "objects": [
+        "code_utils"
+    ],
+    "depends": [
+        "generic-utils",
+        "command-utils",
+        "list-utils",
+        "object-utils",
+        "perm-utils",
+        "string-utils",
+        "wiz-utils"
+    ],
+    "test": "code-utils-tests",
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "cored_refs": [
+        "ambiguous_match",
+        "help",
+        "help_db",
+        "login",
+        "no_one",
+        "player",
+        "recycler"
+    ]
+}

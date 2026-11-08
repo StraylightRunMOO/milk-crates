@@ -1,0 +1,12 @@
+{
+    "id": "lock_utils",
+    "name": "Lock Utilities",
+    "cored": "lock_utils",
+    "parents": [
+        "$generic_utils"
+    ],
+    "flags": [
+        "readable",
+        "fertile"
+    ]
+}

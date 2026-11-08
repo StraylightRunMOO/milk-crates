@@ -1,0 +1,20 @@
+{
+    "name": "quota-utils-tests",
+    "version": "1.0.0",
+    "license": "",
+    "objects": [
+        "quota_tests"
+    ],
+    "depends": [
+        "quota-utils",
+        "test-utils"
+    ],
+    "run": "quota_tests:run",
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "cored_refs": []
+}

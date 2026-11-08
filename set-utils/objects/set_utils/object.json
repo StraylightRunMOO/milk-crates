@@ -1,0 +1,12 @@
+{
+    "id": "set_utils",
+    "name": "Set Utilities",
+    "cored": "set_utils",
+    "parents": [
+        "$generic_utils"
+    ],
+    "flags": [
+        "readable",
+        "fertile"
+    ]
+}

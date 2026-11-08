@@ -1,0 +1,12 @@
+{
+    "id": "wiz_utils",
+    "name": "Wizard Utilities",
+    "cored": "wiz_utils",
+    "parents": [
+        "$generic_utils"
+    ],
+    "flags": [
+        "readable",
+        "fertile"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "id": "ansi_utils",
+    "name": "ANSI Utilities",
+    "cored": "ansi_utils",
+    "parents": [
+        "$generic_utils"
+    ],
+    "flags": [
+        "readable",
+        "fertile"
+    ]
+}

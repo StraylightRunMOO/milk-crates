@@ -1,0 +1,280 @@
+{
+    "monthlens": {
+        "perms": "rc",
+        "value": [
+            31,
+            28,
+            31,
+            30,
+            31,
+            30,
+            31,
+            31,
+            30,
+            31,
+            30,
+            31
+        ]
+    },
+    "timezones": {
+        "perms": "rc",
+        "value": [
+            [
+                "AuEST",
+                -10
+            ],
+            [
+                "AuCST",
+                -9
+            ],
+            [
+                "AuWST",
+                -8
+            ],
+            [
+                "WET",
+                -1
+            ],
+            [
+                "GMT",
+                0
+            ],
+            [
+                "AST",
+                4
+            ],
+            [
+                "EDT",
+                4
+            ],
+            [
+                "EST",
+                5
+            ],
+            [
+                "CDT",
+                5
+            ],
+            [
+                "CST",
+                6
+            ],
+            [
+                "MDT",
+                6
+            ],
+            [
+                "MST",
+                7
+            ],
+            [
+                "PDT",
+                7
+            ],
+            [
+                "PST",
+                8
+            ],
+            [
+                "HST",
+                10
+            ],
+            [
+                "UTC",
+                0
+            ]
+        ]
+    },
+    "stsd": {
+        "perms": "rc",
+        "value": 2427
+    },
+    "ctcd": {
+        "perms": "rc",
+        "value": 7276
+    },
+    "ct": {
+        "perms": "rc",
+        "value": 7934
+    },
+    "corr": {
+        "perms": "rc",
+        "value": -122
+    },
+    "dayabbrs": {
+        "perms": "rc",
+        "value": [
+            "Sun",
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+        ]
+    },
+    "days": {
+        "perms": "rc",
+        "value": [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+        ]
+    },
+    "months": {
+        "perms": "rc",
+        "value": [
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December"
+        ]
+    },
+    "monthabbrs": {
+        "perms": "rc",
+        "value": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    },
+    "zones": {
+        "perms": "rc",
+        "value": [
+            [
+                [
+                    "est",
+                    "edt",
+                    "Massachusetts",
+                    "MA"
+                ],
+                10800
+            ],
+            [
+                [
+                    "cst",
+                    "cdt"
+                ],
+                7200
+            ],
+            [
+                [
+                    "mst",
+                    "mdt"
+                ],
+                3600
+            ],
+            [
+                [
+                    "pst",
+                    "pdt",
+                    "California",
+                    "CA",
+                    "Lambda"
+                ],
+                0
+            ],
+            [
+                [
+                    "gmt"
+                ],
+                28800
+            ]
+        ]
+    },
+    "time_units": {
+        "perms": "rc",
+        "value": [
+            [
+                31536000,
+                "year",
+                "years",
+                "yr",
+                "yrs"
+            ],
+            [
+                2628000,
+                "month",
+                "months",
+                "mo",
+                "mos"
+            ],
+            [
+                604800,
+                "week",
+                "weeks",
+                "wk",
+                "wks"
+            ],
+            [
+                86400,
+                "day",
+                "days",
+                "dy",
+                "dys"
+            ],
+            [
+                3600,
+                "hour",
+                "hours",
+                "hr",
+                "hrs"
+            ],
+            [
+                60,
+                "minute",
+                "minutes",
+                "min",
+                "mins"
+            ],
+            [
+                1,
+                "second",
+                "seconds",
+                "sec",
+                "secs"
+            ]
+        ]
+    },
+    "day": {
+        "perms": "rc",
+        "value": 86400
+    },
+    "hour": {
+        "perms": "rc",
+        "value": 3600
+    },
+    "minute": {
+        "perms": "rc",
+        "value": 60
+    },
+    "week": {
+        "perms": "rc",
+        "value": 604800
+    },
+    "month": {
+        "perms": "rc",
+        "value": 2592000
+    }
+}

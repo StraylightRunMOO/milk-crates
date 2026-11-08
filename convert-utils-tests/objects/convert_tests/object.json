@@ -1,0 +1,7 @@
+{
+  "id": "convert_tests",
+  "name": "Convert Utils Tests",
+  "cored": "convert_tests",
+  "parents": ["$root_class"],
+  "flags": ["readable"]
+}

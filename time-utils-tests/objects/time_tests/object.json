@@ -1,0 +1,7 @@
+{
+  "id": "time_tests",
+  "name": "Time Utils Tests",
+  "cored": "time_tests",
+  "parents": ["$root_class"],
+  "flags": ["readable"]
+}

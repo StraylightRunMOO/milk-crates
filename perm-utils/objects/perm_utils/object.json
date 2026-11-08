@@ -1,0 +1,12 @@
+{
+    "id": "perm_utils",
+    "name": "Permissions Utilities",
+    "cored": "perm_utils",
+    "parents": [
+        "$generic_utils"
+    ],
+    "flags": [
+        "readable",
+        "fertile"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "command_tests",
+  "name": "Command Utils Tests",
+  "cored": "command_tests",
+  "parents": [
+    "$root_class"
+  ],
+  "flags": [
+    "readable"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+    "id": "object_quota_utils",
+    "name": "Object Quota Utilities",
+    "cored": "object_quota_utils",
+    "parents": [
+        "$generic_utils"
+    ],
+    "flags": [
+        "readable",
+        "fertile"
+    ]
+}

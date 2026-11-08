@@ -1,0 +1,7 @@
+{
+  "id": "object_tests",
+  "name": "Object Utils Tests",
+  "cored": "object_tests",
+  "parents": ["$root_class"],
+  "flags": ["readable"]
+}

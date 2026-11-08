@@ -1,0 +1,11 @@
+{
+  "id": "edit_tests",
+  "name": "Edit Utils Tests",
+  "cored": "edit_tests",
+  "parents": [
+    "$root_class"
+  ],
+  "flags": [
+    "readable"
+  ]
+}

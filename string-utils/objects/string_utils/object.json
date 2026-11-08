@@ -1,0 +1,12 @@
+{
+    "id": "string_utils",
+    "name": "String Utilities",
+    "cored": "string_utils",
+    "parents": [
+        "$generic_utils"
+    ],
+    "flags": [
+        "readable",
+        "fertile"
+    ]
+}

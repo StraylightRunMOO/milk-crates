@@ -1,0 +1,12 @@
+{
+    "id": "matrix_utils",
+    "name": "Vector And Matrix Utils",
+    "cored": "matrix_utils",
+    "parents": [
+        "$generic_utils"
+    ],
+    "flags": [
+        "readable",
+        "fertile"
+    ]
+}

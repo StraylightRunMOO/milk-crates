@@ -1,0 +1,12 @@
+{
+    "id": "seq_utils",
+    "name": "Sequence Utilities",
+    "cored": "seq_utils",
+    "parents": [
+        "$generic_utils"
+    ],
+    "flags": [
+        "readable",
+        "fertile"
+    ]
+}

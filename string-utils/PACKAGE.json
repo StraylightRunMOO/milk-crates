@@ -1,0 +1,33 @@
+{
+    "name": "string_utils",
+    "version": "1.0.0",
+    "license": "",
+    "objects": [
+        "string_utils"
+    ],
+    "depends": [
+        "generic-utils",
+        "ansi-utils",
+        "code-utils",
+        "command-utils",
+        "gender-utils",
+        "list-utils",
+        "object-utils"
+    ],
+    "test": "string-utils-tests",
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "cored_refs": [
+        "ambiguous",
+        "ambiguous_match",
+        "failed_match",
+        "mail_agent",
+        "no_one",
+        "player",
+        "player_db"
+    ]
+}

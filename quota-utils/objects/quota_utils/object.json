@@ -1,0 +1,15 @@
+{
+    "id": "quota_utils",
+    "name": "Byte Quota Utilities",
+    "cored": "quota_utils",
+    "parents": [
+        "$generic_utils"
+    ],
+    "flags": [
+        "readable",
+        "fertile"
+    ],
+    "cored_aliases": [
+        "byte_quota_utils"
+    ]
+}

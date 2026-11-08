@@ -1,0 +1,32 @@
+{
+    "digits": {
+        "perms": "rc",
+        "value": "0123456789"
+    },
+    "ascii": {
+        "perms": "rc",
+        "value": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~"
+    },
+    "alphabet": {
+        "perms": "rc",
+        "value": "abcdefghijklmnopqrstuvwxyz"
+    },
+    "use_article_a": {
+        "perms": "r",
+        "value": [
+            "unit",
+            "unix",
+            "one",
+            "once",
+            "utility"
+        ]
+    },
+    "use_article_an": {
+        "perms": "r",
+        "value": []
+    },
+    "tab": {
+        "perms": "rc",
+        "value": "\t"
+    }
+}

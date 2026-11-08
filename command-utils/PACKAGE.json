@@ -1,0 +1,30 @@
+{
+    "name": "command_utils",
+    "version": "1.0.0",
+    "license": "",
+    "objects": [
+        "command_utils"
+    ],
+    "depends": [
+        "generic-utils",
+        "code-utils",
+        "edit-utils",
+        "list-utils",
+        "object-utils",
+        "perm-utils",
+        "string-utils"
+    ],
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "cored_refs": [
+        "ambiguous_match",
+        "failed_match",
+        "login",
+        "player_db"
+    ],
+    "test": "command-utils-tests"
+}

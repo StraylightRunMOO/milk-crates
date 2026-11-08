@@ -1,0 +1,20 @@
+{
+    "name": "matrix-utils-tests",
+    "version": "1.0.0",
+    "license": "",
+    "objects": [
+        "matrix_tests"
+    ],
+    "depends": [
+        "matrix-utils",
+        "test-utils"
+    ],
+    "run": "matrix_tests:run",
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "cored_refs": []
+}

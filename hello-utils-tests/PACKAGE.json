@@ -1,0 +1,20 @@
+{
+    "name": "hello-utils-tests",
+    "version": "1.0.0",
+    "license": "MIT",
+    "objects": [
+        "hello_tests"
+    ],
+    "depends": [
+        "hello-utils",
+        "test-utils"
+    ],
+    "run": "hello_tests:run",
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "cored_refs": []
+}

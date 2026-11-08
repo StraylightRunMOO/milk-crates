@@ -1,0 +1,23 @@
+{
+    "name": "list_utils",
+    "version": "1.0.0",
+    "license": "",
+    "objects": [
+        "list_utils"
+    ],
+    "depends": [
+        "generic-utils",
+        "command-utils",
+        "string-utils"
+    ],
+    "test": "list-utils-tests",
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "cored_refs": [
+        "quinn_utils"
+    ]
+}

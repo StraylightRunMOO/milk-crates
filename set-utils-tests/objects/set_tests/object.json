@@ -1,0 +1,7 @@
+{
+  "id": "set_tests",
+  "name": "Set Utils Tests",
+  "cored": "set_tests",
+  "parents": ["$root_class"],
+  "flags": ["readable"]
+}

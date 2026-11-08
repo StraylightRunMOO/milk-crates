@@ -1,0 +1,7 @@
+{
+  "id": "menu_tests",
+  "name": "Menu Utils Tests",
+  "cored": "menu_tests",
+  "parents": ["$root_class"],
+  "flags": ["readable"]
+}

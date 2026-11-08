@@ -1,0 +1,20 @@
+{
+    "name": "command-utils-tests",
+    "version": "1.0.0",
+    "license": "",
+    "objects": [
+        "command_tests"
+    ],
+    "depends": [
+        "command-utils",
+        "test-utils"
+    ],
+    "run": "command_tests:run",
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "cored_refs": []
+}

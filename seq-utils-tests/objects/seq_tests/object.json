@@ -1,0 +1,7 @@
+{
+  "id": "seq_tests",
+  "name": "Seq Utils Tests",
+  "cored": "seq_tests",
+  "parents": ["$root_class"],
+  "flags": ["readable"]
+}

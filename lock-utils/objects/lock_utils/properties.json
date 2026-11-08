@@ -1,0 +1,22 @@
+{
+    "player": {
+        "perms": "rc",
+        "value": 0
+    },
+    "input_index": {
+        "perms": "rc",
+        "value": 0
+    },
+    "input_length": {
+        "perms": "rc",
+        "value": 0
+    },
+    "input_string": {
+        "perms": "rc",
+        "value": ""
+    },
+    "index_incremented": {
+        "perms": "rc",
+        "value": 0
+    }
+}

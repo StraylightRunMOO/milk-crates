@@ -1,0 +1,11 @@
+{
+  "id": "generic_tests",
+  "name": "Generic Utils Tests",
+  "cored": "generic_tests",
+  "parents": [
+    "$root_class"
+  ],
+  "flags": [
+    "readable"
+  ]
+}

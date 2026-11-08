@@ -1,0 +1,15 @@
+{
+    "id": "math_utils",
+    "name": "Math Utilities",
+    "cored": "math_utils",
+    "parents": [
+        "$generic_utils"
+    ],
+    "flags": [
+        "readable",
+        "fertile"
+    ],
+    "cored_aliases": [
+        "trig_utils"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "id": "edit_utils",
+    "name": "Generic Editor Utilities",
+    "cored": "edit_utils",
+    "parents": [
+        "$generic_utils"
+    ],
+    "flags": [
+        "readable",
+        "fertile"
+    ]
+}

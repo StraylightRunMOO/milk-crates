@@ -1,0 +1,21 @@
+{
+    "name": "string-utils-tests",
+    "version": "1.0.0",
+    "license": "",
+    "objects": [
+        "string_tests"
+    ],
+    "depends": [
+        "string-utils",
+        "code-utils",
+        "test-utils"
+    ],
+    "run": "string_tests:run",
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "cored_refs": []
+}

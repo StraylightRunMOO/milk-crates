@@ -1,0 +1,12 @@
+{
+    "id": "match_utils",
+    "name": "Matching Utilities",
+    "cored": "match_utils",
+    "parents": [
+        "$generic_utils"
+    ],
+    "flags": [
+        "readable",
+        "fertile"
+    ]
+}

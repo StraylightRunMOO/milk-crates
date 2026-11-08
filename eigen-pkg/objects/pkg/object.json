@@ -1,0 +1,7 @@
+{
+  "id": "pkg",
+  "name": "Package Manager",
+  "cored": "pkg",
+  "parents": ["$root_class"],
+  "flags": ["readable"]
+}

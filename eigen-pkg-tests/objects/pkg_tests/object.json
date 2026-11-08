@@ -1,0 +1,11 @@
+{
+  "id": "pkg_tests",
+  "name": "Eigen Pkg Tests",
+  "cored": "pkg_tests",
+  "parents": [
+    "$root_class"
+  ],
+  "flags": [
+    "readable"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "menu-utils-tests",
+    "version": "1.0.0",
+    "license": "",
+    "objects": [
+        "menu_tests"
+    ],
+    "depends": [
+        "menu-utils",
+        "test-utils"
+    ],
+    "run": "menu_tests:run",
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "cored_refs": []
+}

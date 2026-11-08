@@ -1,0 +1,19 @@
+{
+    "name": "math_utils",
+    "version": "1.0.0",
+    "license": "",
+    "objects": [
+        "math_utils"
+    ],
+    "depends": [
+        "generic-utils"
+    ],
+    "test": "math-utils-tests",
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "cored_refs": []
+}

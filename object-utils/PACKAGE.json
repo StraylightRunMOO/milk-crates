@@ -1,0 +1,22 @@
+{
+    "name": "object_utils",
+    "version": "1.0.0",
+    "license": "",
+    "objects": [
+        "object_utils"
+    ],
+    "depends": [
+        "generic-utils",
+        "code-utils",
+        "command-utils",
+        "perm-utils"
+    ],
+    "test": "object-utils-tests",
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "cored_refs": []
+}

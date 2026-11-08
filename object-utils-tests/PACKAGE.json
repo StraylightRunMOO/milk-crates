@@ -1,0 +1,20 @@
+{
+    "name": "object-utils-tests",
+    "version": "1.0.0",
+    "license": "",
+    "objects": [
+        "object_tests"
+    ],
+    "depends": [
+        "object-utils",
+        "test-utils"
+    ],
+    "run": "object_tests:run",
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "cored_refs": []
+}

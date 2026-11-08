@@ -1,0 +1,7 @@
+{
+  "id": "list_tests",
+  "name": "List Utils Tests",
+  "cored": "list_tests",
+  "parents": ["$root_class"],
+  "flags": ["readable"]
+}

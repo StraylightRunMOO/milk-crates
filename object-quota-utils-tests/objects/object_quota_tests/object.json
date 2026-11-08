@@ -1,0 +1,11 @@
+{
+  "id": "object_quota_tests",
+  "name": "Object Quota Utils Tests",
+  "cored": "object_quota_tests",
+  "parents": [
+    "$root_class"
+  ],
+  "flags": [
+    "readable"
+  ]
+}

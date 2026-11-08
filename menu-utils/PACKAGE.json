@@ -1,0 +1,25 @@
+{
+    "name": "menu_utils",
+    "version": "1.0.0",
+    "license": "",
+    "objects": [
+        "menu_utils"
+    ],
+    "depends": [
+        "generic-utils",
+        "ansi-utils",
+        "code-utils",
+        "command-utils",
+        "string-utils"
+    ],
+    "test": "menu-utils-tests",
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "cored_refs": [
+        "option_utils"
+    ]
+}

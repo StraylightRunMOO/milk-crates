@@ -1,0 +1,20 @@
+{
+    "name": "eigen-pkg-tests",
+    "version": "1.0.0",
+    "license": "MIT",
+    "objects": [
+        "pkg_tests"
+    ],
+    "depends": [
+        "eigen-pkg",
+        "test-utils"
+    ],
+    "run": "pkg_tests:run",
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "cored_refs": []
+}

@@ -1,0 +1,12 @@
+{
+    "id": "generic_utils",
+    "name": "Generic Utilities Package",
+    "cored": "generic_utils",
+    "parents": [
+        "$root_class"
+    ],
+    "flags": [
+        "readable",
+        "fertile"
+    ]
+}

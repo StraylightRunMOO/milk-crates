@@ -1,0 +1,7 @@
+{
+  "id": "perm_tests",
+  "name": "Perm Utils Tests",
+  "cored": "perm_tests",
+  "parents": ["$root_class"],
+  "flags": ["readable"]
+}

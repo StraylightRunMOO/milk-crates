@@ -1,0 +1,7 @@
+{
+  "id": "lock_tests",
+  "name": "Lock Utils Tests",
+  "cored": "lock_tests",
+  "parents": ["$root_class"],
+  "flags": ["readable"]
+}

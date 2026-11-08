@@ -1,0 +1,36 @@
+{
+  "registry": {
+    "perms": "r",
+    "value": "https://github.com/StraylightRunMOO/milk-crates.git"
+  },
+  "catalog": {
+    "perms": "r",
+    "value": [
+      "hello-utils",
+      "generic-utils",
+      "string-utils",
+      "list-utils",
+      "set-utils",
+      "math-utils",
+      "time-utils",
+      "match-utils",
+      "object-utils",
+      "code-utils",
+      "command-utils",
+      "perm-utils",
+      "seq-utils",
+      "lock-utils",
+      "gender-utils",
+      "building-utils",
+      "convert-utils",
+      "edit-utils",
+      "ansi-utils",
+      "matrix-utils",
+      "menu-utils",
+      "quota-utils",
+      "object-quota-utils",
+      "wiz-utils",
+      "eigen-pkg"
+    ]
+  }
+}

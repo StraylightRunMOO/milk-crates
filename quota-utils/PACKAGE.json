@@ -1,0 +1,32 @@
+{
+    "name": "quota_utils",
+    "version": "1.0.0",
+    "license": "",
+    "objects": [
+        "quota_utils"
+    ],
+    "depends": [
+        "generic-utils",
+        "command-utils",
+        "gender-utils",
+        "list-utils",
+        "object-utils",
+        "perm-utils",
+        "string-utils",
+        "time-utils",
+        "wiz-utils"
+    ],
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "cored_refs": [
+        "hacker",
+        "local",
+        "mail_agent",
+        "recycler"
+    ],
+    "test": "quota-utils-tests"
+}

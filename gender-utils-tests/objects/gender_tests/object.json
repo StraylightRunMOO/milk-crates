@@ -1,0 +1,7 @@
+{
+  "id": "gender_tests",
+  "name": "Gender Utils Tests",
+  "cored": "gender_tests",
+  "parents": ["$root_class"],
+  "flags": ["readable"]
+}

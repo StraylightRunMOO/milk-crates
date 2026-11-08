@@ -1,0 +1,26 @@
+{
+    "name": "lock_utils",
+    "version": "1.0.0",
+    "license": "",
+    "objects": [
+        "lock_utils"
+    ],
+    "depends": [
+        "generic-utils",
+        "object-utils"
+    ],
+    "test": "lock-utils-tests",
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "cored_refs": [
+        "ambiguous_match",
+        "failed_match",
+        "hacker",
+        "housekeeper",
+        "no_one"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "wiz_tests",
+  "name": "Wiz Utils Tests",
+  "cored": "wiz_tests",
+  "parents": [
+    "$root_class"
+  ],
+  "flags": [
+    "readable"
+  ]
+}

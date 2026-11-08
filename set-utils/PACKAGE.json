@@ -1,0 +1,20 @@
+{
+    "name": "set_utils",
+    "version": "1.0.0",
+    "license": "",
+    "objects": [
+        "set_utils"
+    ],
+    "depends": [
+        "generic-utils",
+        "command-utils"
+    ],
+    "test": "set-utils-tests",
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "cored_refs": []
+}

@@ -1,0 +1,42 @@
+{
+    "ordn": {
+        "perms": "rc",
+        "value": [
+            "first",
+            "second",
+            "third",
+            "fourth",
+            "fifth",
+            "sixth",
+            "seventh",
+            "eighth",
+            "ninth",
+            "tenth"
+        ]
+    },
+    "ordw": {
+        "perms": "rc",
+        "value": [
+            "1st",
+            "2nd",
+            "3rd",
+            "4th",
+            "5th",
+            "6th",
+            "7th",
+            "8th",
+            "9th",
+            "10th"
+        ]
+    },
+    "ordinal_regexp": {
+        "perms": "rc",
+        "value": "%<%(first%|second%|third%|fourth%|fifth%|sixth%|seventh%|eighth%|ninth%|tenth%|1st%|2nd%|3rd%|4th%|5th%|6th%|7th%|8th%|9th%|10th%)%>"
+    },
+    "matching_room": {
+        "perms": "r",
+        "value": {
+            "$ref": "#-1"
+        }
+    }
+}

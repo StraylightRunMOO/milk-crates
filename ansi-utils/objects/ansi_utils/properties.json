@@ -1,0 +1,594 @@
+{
+    "escape": {
+        "perms": "",
+        "value": "\u001b"
+    },
+    "code_red": {
+        "perms": "r",
+        "value": "e[31m"
+    },
+    "code_green": {
+        "perms": "r",
+        "value": "e[32m"
+    },
+    "code_yellow": {
+        "perms": "r",
+        "value": "e[33m"
+    },
+    "code_blue": {
+        "perms": "r",
+        "value": "e[34m"
+    },
+    "code_purple": {
+        "perms": "r",
+        "value": "e[35m"
+    },
+    "code_cyan": {
+        "perms": "r",
+        "value": "e[36m"
+    },
+    "code_normal": {
+        "perms": "r",
+        "value": "e[0m"
+    },
+    "code_inverse": {
+        "perms": "r",
+        "value": "e[7m"
+    },
+    "code_underline": {
+        "perms": "r",
+        "value": "e[4m"
+    },
+    "code_bold": {
+        "perms": "r",
+        "value": "e[1m"
+    },
+    "code_b:black": {
+        "perms": "r",
+        "value": "e[40m"
+    },
+    "code_b:red": {
+        "perms": "r",
+        "value": "e[41m"
+    },
+    "code_b:green": {
+        "perms": "r",
+        "value": "e[42m"
+    },
+    "code_b:yellow": {
+        "perms": "r",
+        "value": "e[43m"
+    },
+    "code_b:blue": {
+        "perms": "r",
+        "value": "e[44m"
+    },
+    "code_b:magenta": {
+        "perms": "r",
+        "value": "e[45m"
+    },
+    "code_b:purple": {
+        "perms": "r",
+        "value": "e[45m"
+    },
+    "code_b:cyan": {
+        "perms": "r",
+        "value": "e[46m"
+    },
+    "code_b:white": {
+        "perms": "r",
+        "value": "e[47m"
+    },
+    "beep": {
+        "perms": "",
+        "value": "\u0007"
+    },
+    "code_bright": {
+        "perms": "r",
+        "value": "e[1m"
+    },
+    "group_colors": {
+        "perms": "r",
+        "value": [
+            "red",
+            "green",
+            "yellow",
+            "blue",
+            "purple",
+            "cyan",
+            "gray",
+            "grey",
+            "magenta",
+            "white"
+        ]
+    },
+    "group_bold": {
+        "perms": "r",
+        "value": [
+            "bold",
+            "unbold",
+            "bright",
+            "unbright"
+        ]
+    },
+    "code_unbold": {
+        "perms": "r",
+        "value": "e[22m"
+    },
+    "group_misc": {
+        "perms": "r",
+        "value": [
+            "underline",
+            "inverse",
+            "strike",
+            "italic"
+        ]
+    },
+    "code_blink": {
+        "perms": "r",
+        "value": "e[5m"
+    },
+    "code_unblink": {
+        "perms": "r",
+        "value": "e[25m"
+    },
+    "group_blinking": {
+        "perms": "r",
+        "value": [
+            "blink",
+            "unblink"
+        ]
+    },
+    "code_magenta": {
+        "perms": "r",
+        "value": "e[35m"
+    },
+    "code_unbright": {
+        "perms": "r",
+        "value": "e[22m"
+    },
+    "groups": {
+        "perms": "r",
+        "value": [
+            "bold",
+            "colors",
+            "misc",
+            "blinking",
+            "extra"
+        ]
+    },
+    "code_white": {
+        "perms": "r",
+        "value": "e[37m"
+    },
+    "noansi_task": {
+        "perms": "r",
+        "value": 828515096
+    },
+    "all": {
+        "perms": "r",
+        "value": [
+            "random",
+            "normal",
+            "null",
+            "bold",
+            "unbold",
+            "bright",
+            "unbright",
+            "red",
+            "green",
+            "yellow",
+            "blue",
+            "purple",
+            "cyan",
+            "gray",
+            "grey",
+            "magenta",
+            "white",
+            "underline",
+            "inverse",
+            "strike",
+            "italic",
+            "blink",
+            "unblink",
+            "beep"
+        ]
+    },
+    "all_regexp": {
+        "perms": "r",
+        "value": "%[%(b:%)?%(random%|normal%|null%|bold%|unbold%|bright%|unbright%|red%|green%|yellow%|blue%|purple%|cyan%|gray%|grey%|magenta%|white%|underline%|inverse%|strike%|italic%|blink%|unblink%|beep%|:%([01][0-9][0-9]%|2[0-4][0-9]%|25[0-5]%)%|:random%|%([0-9]+%):%([0-9]+%):%([0-9]+%)%)%]"
+    },
+    "group_colors_regexp": {
+        "perms": "r",
+        "value": "%[%(red%|green%|yellow%|blue%|purple%|cyan%|gray%|grey%|magenta%|white%)%]"
+    },
+    "group_bold_regexp": {
+        "perms": "r",
+        "value": "%[%(bold%|unbold%|bright%|unbright%)%]"
+    },
+    "group_misc_regexp": {
+        "perms": "r",
+        "value": "%[%(underline%|inverse%|strike%|italic%)%]"
+    },
+    "group_blinking_regexp": {
+        "perms": "r",
+        "value": "%[%(blink%|unblink%)%]"
+    },
+    "truecolor_regexp": {
+        "perms": "r",
+        "value": "%([0-9]+%):%([0-9]+%):%([0-9]+%)"
+    },
+    "version": {
+        "perms": "r",
+        "value": "2.7"
+    },
+    "code_gray": {
+        "perms": "r",
+        "value": "e[1;30m"
+    },
+    "code_grey": {
+        "perms": "r",
+        "value": "e[1;30m"
+    },
+    "test_screen": {
+        "perms": "r",
+        "value": [
+            "Colors        [red]red[normal]          Bold Colors   [bold][red]red[normal]",
+            "              [green]green[normal]                      [bold][green]green[normal]",
+            "              [blue]blue[normal]                       [bold][blue]blue[normal]",
+            "              [yellow]yellow[normal]                     [bold][yellow]yellow[normal]",
+            "              [cyan]cyan[normal]                       [bold][cyan]cyan[normal]",
+            "              [purple]purple[normal]                     [bold][purple]purple[normal]",
+            "              [gray]gray[normal]                       [bold][gray]gray[normal]",
+            "              [white]white[normal]                      [bold][white]white[normal]",
+            "",
+            "Backgrounds   [b:red][gray]red[normal]          True Color    [128:0:0]maroon[normal]",
+            "              [b:green][gray]green[normal]                      [153:255:180]light green[normal]",
+            "              [b:blue][gray]blue[normal]                       [153:204:255]light blue[normal]",
+            "              [b:yellow][gray]yellow[normal]                     [255:255:153]funky banana[normal]",
+            "              [b:cyan][gray]cyan[normal]                       [0:102:102]dark cyan[normal]",
+            "              [b:purple][gray]purple[normal]                     [255:204:242]light purple[normal]",
+            "              [b:white][gray]white[normal]                      [170:121:65]brown[normal]",
+            "",
+            "256 Color     [:130]Orange[normal]",
+            "              [:125]Pink[normal]",
+            "              [:055]Violet[normal]",
+            "\t      [:102]Silver[normal]",
+            "\t      [:178]Bold Tan[normal]",
+            "\t      [:118]Bold Lime[normal]",
+            "\t      ",
+            "Blinking   - [blink]This text should be blinking.  [unblink]This shouldn't.[normal]",
+            "",
+            "Bold       - [bold][cyan]This text should be bold.  [unbold][cyan]This shouldn't.[normal]",
+            "",
+            "Inverse    - [inverse]This should be inverse, and [red]t[green]h[yellow]i[blue]s[normal][inverse] should be inverse and in color.[normal]",
+            "",
+            "Underline  - [underline]This should be underlined.[normal]",
+            "",
+            "Strike     - [strike]This should have a line through it.[normal]",
+            "",
+            "Italic     - [italic]This should be italicized.[normal]",
+            "",
+            "Random     - [random]All [random]of [random]these [random]words [random]should [random]be [random]written [random]in [random]a [random]different [random]color.[normal]",
+            "",
+            "Random 256 - [:random]All [:random]of [:random]these [:random]words [:random]should [:random]be [:random]written [:random]in [:random]a [:random]different [:random]color.[normal]",
+            "",
+            "Beep       - [beep]You should hear a beep."
+        ]
+    },
+    "extra_codes": {
+        "perms": "r",
+        "value": [
+            "random",
+            "normal",
+            "null"
+        ]
+    },
+    "active": {
+        "perms": "r",
+        "value": 1
+    },
+    "random_colors": {
+        "perms": "r",
+        "value": [
+            "red",
+            "green",
+            "yellow",
+            "blue",
+            "purple",
+            "cyan",
+            "gray",
+            "white"
+        ]
+    },
+    "ansi_log": {
+        "perms": "r",
+        "value": [
+            [
+                "2.7",
+                1713938968,
+                "[bold][yellow]l[normal][yellow]i[green]s[bold]d[red]u[normal][red]d[purple]e[normal]",
+                [
+                    "Fix a traceback in $ansi_utils:add_code()",
+                    "Add [strike[null]] for strikethrough text.",
+                    "Add [italic[null]] for italicized text."
+                ]
+            ],
+            [
+                "2.6",
+                1637293016,
+                "[bold][yellow]l[normal][yellow]i[green]s[bold]d[red]u[normal][red]d[purple]e[normal]",
+                [
+                    "Fixed an issue in $ansi_pc:notify where it would terminate_normal even if the task was in the noansi queue, resulting in lines with visible ANSI tags gaining a [normal[null]] tag at the end.",
+                    "Made @dump add the task to the noansi queue, allowing ANSI tags to be visible.",
+                    "Added a call to 'remove_noansi' to @list to cleanup the noansi queue property."
+                ]
+            ],
+            [
+                "2.5",
+                1550344231,
+                "[bold][yellow]l[normal][yellow]i[green]s[bold]d[red]u[normal][red]d[purple]e[normal]",
+                [
+                    "Added support for xterm 256 colors. Tags are in the mildly awkward form: [:number] or [b::number] for backgrounds. e.g. [:200[null]]",
+                    "Also merged True Color into the notify_regexp and removed background codes. Backgrounds are now a modifier to each color class."
+                ]
+            ],
+            [
+                "2.4",
+                1540863892,
+                "[bold][yellow]l[normal][yellow]i[green]s[bold]d[red]u[normal][red]d[purple]e[normal]",
+                [
+                    "Added support for true color (24-bit) terminals. Tags are in the form: [red:green:blue] or [b:red:green:blue] for backgrounds"
+                ]
+            ],
+            [
+                "2.3",
+                1112950415,
+                "[bold][yellow]l[normal][yellow]i[green]s[bold]d[red]u[normal][red]d[purple]e[normal]",
+                [
+                    "Added Remco de Groot's 2.2 change to the ANSI log and added support for background colors. Tags for background colors take the form: [b:color]",
+                    "Also updated @ansi-setup to recognize and use FileIO if it's available."
+                ]
+            ],
+            [
+                "2.2",
+                820519200,
+                "Remco de Groot",
+                [
+                    "Fixed a bug in the setup script where it referenced $player rather than player."
+                ]
+            ],
+            [
+                "2.1",
+                820519200,
+                "[cyan]D[gray]ark_[unbold][cyan]O[gray]wl[normal]",
+                [
+                    "Updated all the documentation. Fixed up $ansi_pc:@ansi-setup. Fixed up $ansi_utils:notify to be a *much* faster. Changed the format of $ansi_utils.ansi_log and made $ansi_help:ansi_log do the formatting itself. Added $ansi_utils:tell, $ansi_pc:title, $ansi_utils:ansi_title, help ansi-cutoff, $ansi_pc:confunc, $ansi_utils:quote_ansi, $ansi_utils.status_message, $ansi_pc:@ansi-status, help @ansi-status, $ansi_utils:trusts, $ansi_utils.trusted, $ansi_utils:setadd, $ansi_utils:setremove, $ansi_utils:terminate_normal, $ansi_utils:self_diagnostic, and a benchmark test. Fixed a bug in $ansi_utils:replace_group where it was ignoring @ansi-o escape. Removed $ansi_utils:maybe_restart_noansi and replaced it with the less server intensive :cleanup_noansi. Moved the main part of $ansi_utils:cutoff into an internal verb, :cutoff_locs, and made a :cutoff_assign verb that also uses it. Removed $ansi_utils:replace_group and :reset_string and moved it to :notify. Got rid of $ansi_utils.su_<whatever> and moved them to regular verbs on $ansi_utils. Fixed up $ansi_pc:linesplit to use $ansi_utils:cutoff_locs. Renamed $ansi_utils:update_regexp to update_all and made it update all the caches. Moved @ansi-setup to $ansi_utils.",
+                    "NOTE: $ansi_utils:notify doesn't terminate all strings with a [[null]normal] code anymore, you will have to run the string through $ansi_utils:terminate_normal before calling it.",
+                    "The home of the ANSI system is now NestMOO, instead of EnigMOO."
+                ]
+            ],
+            [
+                "2.0",
+                817840800,
+                "[red]D[gray]ark_[unbold][red]O[gray]wl[normal]",
+                "Updated all the documentation, removed $ansi_utils.test_title, added $ansi_pc:set_aliases, added $ansi_pc:@more to fix the one on $player, fixed up @ansi-setup a lot. I'm fairly confident that the ANSI system is now safe and secure."
+            ],
+            [
+                "1.6",
+                817840800,
+                "[blue]D[gray]ark_[unbold][blue]O[gray]wl[normal]",
+                "Made $ansi_utils:notify, moved all the replacing stuff there, and hacked $ansi_pc:notify to call it instead of notify(). Moved the .noansi_queue, :add_noansi, and :remove_noansi from $ansi_pc to $ansi_utils. I also updated 'help ansi-bugs' now that I tracked down a couple of them."
+            ],
+            [
+                "1.5",
+                815248800,
+                "[green]Grant[normal]",
+                "Fixed some security problems that allowed players to get a copy of the escape character and use it for malicious purposes. To do that, I got rid of $ansi_pc:replace_ansi and put the code straight in :notify, which is able to pass() now. Also made an @ansi-setup verb for convenient porting, along with some core verb code on $ansi_utils. Fixed randoms to substitute faster by adding .random_colors. Added $ansi_utils:show_who_listing and changed @who to use it."
+            ],
+            [
+                "1.4",
+                815248800,
+                "[green]Grant[normal]",
+                "In Dark_Owl's absence, I fixed up a lot of code to make it take less ticks, due to the recent lag problems on EnigMOO, which we suspect were called by color codes (most noticeably s). Average :notify call with colors takes around 200 less ticks. Also updated much of the documentation, since I know DO doesn't like to do it ;) Copied the part of $player:set_name that checked whether people had color codes in their name or not to the ANSI PC."
+            ],
+            [
+                "1.3",
+                812570400,
+                "[green]D[gray]ark_[unbold][green]O[gray]wl[normal]",
+                "Fixed up 'help ansi-programming' a little more. Fixed $string_utils:columnize, for some reason it worked fine here but got screwed up on ForestMOO. Added 'help ansi-porting'."
+            ],
+            [
+                "1.2",
+                812570400,
+                "[purple]D[gray]ark_[unbold][purple]O[gray]wl[normal]",
+                "$ansi_utils:replace_group now uses substitute(). Added 'help ansi-programming' and 'help ansi-bugs'. Added @ansi-test and 'help @ansi-test'. Cleaned up a lot of other stuff. Added $ansi_utils.active."
+            ],
+            [
+                "1.1",
+                812570400,
+                "[green]D[gray]ark_[unbold][green]O[gray]wl[normal]",
+                "Fixed up $ansi_pc:notify a little but unfortunately now it requires wizperms and overrides the ones on it's ancestors. Fixed the line wrapping. Added this log, along with $ansi_utils.version. Hacked $ansi_utils:replace_group and $ansi_utils:cutoff to use regexps."
+            ],
+            [
+                "1.0",
+                809978400,
+                "[cyan]D[gray]ark_[unbold][cyan]O[gray]wl[normal]",
+                "$emu disappears and is replaced with $ansi_utils. $ansi_pc, $ansi_help, $ansi_options, are created and everything on $player is moved to $ansi_pc. @ansi is replaced by @ansi-o."
+            ],
+            [
+                "0.9",
+                807300000,
+                "[white]D[gray]ark_[unbold][white]O[gray]wl[normal]",
+                "EnigMOO opens resulting in a lot of bug fixes and more core hacks."
+            ],
+            [
+                "0.6",
+                799351200,
+                "[cyan]D[gray]ark_[unbold][cyan]O[gray]wl[normal]",
+                "Fixed up @ansi some more, fixed a lot more core stuff including $generic_editor, and made it possible to ignore ANSI codes."
+            ],
+            [
+                "0.4",
+                788983200,
+                "[yellow]D[gray]ark_[unbold][yellow]O[gray]wl[normal]",
+                "Fixed up @ansi a little and hacked some core stuff, mostly on $string_utils to fix columnizing. $emu:replace is hacked to use strsub() as opposed to going through letter by letter, ick."
+            ],
+            [
+                "0.2",
+                781034400,
+                "[purple]D[gray]ark_[unbold][purple]O[gray]wl[normal]",
+                "Added an .ansi_on property on $player and a primitive @ansi command to turn it on and off."
+            ],
+            [
+                "0.1",
+                778442400,
+                "[white]D[gray]ark_[unbold][white]O[gray]wl[normal]",
+                "First version, added $emu and hacked $player:notify to call it."
+            ]
+        ]
+    },
+    "noansi_queue": {
+        "perms": "r",
+        "value": [
+            414639345
+        ]
+    },
+    "need_wizperms": {
+        "perms": "r",
+        "value": [
+            [
+                "ansi_pc",
+                "@more"
+            ],
+            [
+                "ansi_pc",
+                "notify"
+            ],
+            [
+                "ansi_utils",
+                "notify"
+            ],
+            [
+                "ansi_utils",
+                "@ansi-setup"
+            ]
+        ]
+    },
+    "code_beep": {
+        "perms": "r",
+        "value": "b"
+    },
+    "status_message": {
+        "perms": "r",
+        "value": ""
+    },
+    "trusted": {
+        "perms": "r",
+        "value": []
+    },
+    "diagnostic_tests": {
+        "perms": "r",
+        "value": [
+            "benchmark"
+        ]
+    },
+    "redirect_su_names": {
+        "perms": "r",
+        "value": [
+            "left",
+            "right",
+            "center centre",
+            "columnize columnise",
+            "space"
+        ]
+    },
+    "redirect_su_code": {
+        "perms": "r",
+        "value": [
+            "\"...redirects verbs to $ansi_utils...\";",
+            "if (verb == \"redirect_ansi\")",
+            "elseif (valid(au = $ansi_utils))",
+            "  return au:(verb)(@args);",
+            "else",
+            "  return this:(verb + \"(noansi)\")(@args);",
+            "endif"
+        ]
+    },
+    "default_codes": {
+        "perms": "r",
+        "value": [
+            "white",
+            "unbold",
+            "unblink",
+            "null"
+        ]
+    },
+    "code_null": {
+        "perms": "r",
+        "value": ""
+    },
+    "code_random": {
+        "perms": "r",
+        "value": ""
+    },
+    "group_extra": {
+        "perms": "r",
+        "value": [
+            "beep"
+        ]
+    },
+    "group_extra_regexp": {
+        "perms": "r",
+        "value": "%[%(beep%)%]"
+    },
+    "terminate_regexp": {
+        "perms": "rc",
+        "value": "%[%(b:%)?%(random%|normal%|bold%|bright%|unbright%|red%|green%|yellow%|blue%|purple%|cyan%|gray%|grey%|magenta%|underline%|inverse%|strike%|italic%|blink%|:%([01][0-9][0-9]%|2[0-4][0-9]%|25[0-5]%)%|:random%|%([0-9]+%):%([0-9]+%):%([0-9]+%)%)%]"
+    },
+    "replace_code_pointers": {
+        "perms": "r",
+        "value": []
+    },
+    "notify_regexp": {
+        "perms": "rc",
+        "value": "%[%(b:%)?%(random%|normal%|bold%|unbold%|bright%|unbright%|red%|green%|yellow%|blue%|purple%|cyan%|gray%|grey%|magenta%|white%|underline%|inverse%|strike%|italic%|blink%|unblink%|beep%|:%([01][0-9][0-9]%|2[0-4][0-9]%|25[0-5]%)%|:random%|%([0-9]+%):%([0-9]+%):%([0-9]+%)%)%]"
+    },
+    "reset_guest_props": {
+        "perms": "r",
+        "value": [
+            "ansi_options",
+            "replace_codes"
+        ]
+    },
+    "ge_fill_string": {
+        "perms": "r",
+        "value": [
+            "if (valid(au = $ansi_utils) && au.active)",
+            "  return au:(verb)(@args);",
+            "else",
+            "  return this:(verb + \"(noansi)\")(@args);",
+            "endif"
+        ]
+    },
+    "plr_db_insert": {
+        "perms": "r",
+        "value": [
+            "typeof(args[1]) == NUM && typeof(args[2]) == STR && (args[2] = $ansi_utils:delete(args[2]));",
+            "typeof(args[1]) == STR && (args[1] = $ansi_utils:delete(args[1]));",
+            "return pass(@args);"
+        ]
+    },
+    "xterm_256_regexp": {
+        "perms": "rc",
+        "value": ":%([01][0-9][0-9]%|2[0-4][0-9]%|25[0-5]%)%|:random"
+    },
+    "code_strike": {
+        "perms": "r",
+        "value": "e[9m"
+    },
+    "code_italic": {
+        "perms": "r",
+        "value": "e[3m"
+    }
+}
