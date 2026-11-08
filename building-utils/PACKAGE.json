@@ -1,0 +1,42 @@
+{
+    "name": "building_utils",
+    "version": "1.0.0",
+    "license": "",
+    "objects": [
+        "building_utils"
+    ],
+    "depends": [
+        "generic-utils",
+        "string-utils",
+        "list-utils",
+        "command-utils",
+        "object-utils",
+        "perm-utils",
+        "quota-utils"
+    ],
+    "test": "building-utils-tests",
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "cored_refs": [
+        "player",
+        "room",
+        "exit",
+        "note",
+        "container",
+        "thing",
+        "feature",
+        "mail_recipient",
+        "generic_help",
+        "generic_db",
+        "generic_utils",
+        "generic_options",
+        "recycler",
+        "nothing",
+        "player_start",
+        "maxint"
+    ]
+}

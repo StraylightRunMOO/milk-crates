@@ -1,0 +1,41 @@
+{
+    "classes": {
+        "perms": "rc",
+        "value": [
+            {"$ref": "$player"},
+            {"$ref": "$room"},
+            {"$ref": "$exit"},
+            {"$ref": "$note"},
+            {"$ref": "$container"},
+            {"$ref": "$thing"},
+            {"$ref": "$feature"},
+            {"$ref": "$mail_recipient"},
+            {"$ref": "$generic_help"},
+            {"$ref": "$generic_db"},
+            {"$ref": "$generic_utils"},
+            {"$ref": "$generic_options"}
+        ]
+    },
+    "class_string": {
+        "perms": "rc",
+        "value": ["p", "R", "E", "N", "C", "T", "F", "M", "H", "D", "U", "O"]
+    },
+    "help_msg": {
+        "perms": "rc",
+        "value": [
+            "Verbs useful for building.  For a complete description of a given verb, do `help $building_utils:verbname'.",
+            "",
+            "make_exit(spec,source,dest[,don't-really-create]) => a new exit",
+            "          spec is an exit-spec as described in `help @dig'",
+            "",
+            "set_names(object, spec) - sets name and aliases for an object",
+            "parse_names(spec) => list of {name, aliases}",
+            "          in both of these, spec is of the form",
+            "            <name>[[,:]<alias>,<alias>,...]",
+            "          (as described in `help @rename')",
+            "",
+            "recreate(object, newparent) - effectively recycle and recreate object",
+            "          as a child of newparent"
+        ]
+    }
+}

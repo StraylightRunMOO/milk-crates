@@ -3,12 +3,12 @@
 // $list_utils:map_args/map_arg([n,] object, verb, @args) => LIST
 // Call object:verb(@args) for each element of the n-th list argument. n defaults to 1.
 set_task_perms(caller_perms());
-if (n = args[1])
-  {object, verb, @rest} = args[2..$];
-else
+if (typeof(n = args[1]) != INT)
   object = n;
   n = 1;
   {verb, @rest} = args[2..$];
+else
+  {object, verb, @rest} = args[2..$];
 endif
 results = {};
 for a in (rest[n])

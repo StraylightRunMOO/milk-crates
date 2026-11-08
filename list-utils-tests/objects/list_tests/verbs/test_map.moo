@@ -3,6 +3,9 @@
 if ($list_utils:map_arg(1, $list_utils, "first", {{1, 2}, {3, 4}}) != {1, 3})
   return "map_arg";
 endif
+if ($list_utils:map_arg($string_utils, "trim", {" a", "b "}) != {"a", "b"})
+  return "map_arg no-n";
+endif
 if ($list_utils:map_args(1, $list_utils, "first", {{1, 2}, {3, 4}}) != {1, 3})
   return "map_args alias";
 endif

@@ -1,0 +1,20 @@
+{
+    "name": "building-utils-tests",
+    "version": "1.0.0",
+    "license": "",
+    "objects": [
+        "building_tests"
+    ],
+    "depends": [
+        "building-utils",
+        "test-utils"
+    ],
+    "run": "building_tests:run",
+    "exclude_props": [
+        "location",
+        "contents",
+        "last_move",
+        "position"
+    ],
+    "cored_refs": []
+}

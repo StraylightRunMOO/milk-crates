@@ -1,0 +1,12 @@
+{
+    "id": "building_utils",
+    "name": "Building Utilities",
+    "cored": "building_utils",
+    "parents": [
+        "$generic_utils"
+    ],
+    "flags": [
+        "readable",
+        "fertile"
+    ]
+}
